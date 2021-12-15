@@ -7,7 +7,7 @@ const FeedbackList = ({ feedback, handleDelete }) => {
 		return <p>No feedback yet</p>;
 	}
 	return (
-		<div className='feedbacl-list'>
+		<div className='feedback-list'>
 			{feedback.map((item) => (
 				<FeedbackItem key={item.id} item={item} handleDelete={handleDelete} />
 			))}
